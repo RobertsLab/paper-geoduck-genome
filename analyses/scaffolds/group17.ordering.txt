@@ -1,0 +1,18 @@
+# ContigOrdering file.  This file represents a ContigOrdering object, which describes an ordering of contigs within a Proximo cluster.
+# See ContigOrdering.h for more documentation.
+#
+# Important numbers:
+#	N_contigs	7	(Number of contigs in the input cluster)
+#	N_contigs_used	7	(Number of contigs ordered by this ordering)
+#	has_Q_scores	1	(Boolean: has orientation quality scores?)
+#	has_gaps	0	(Boolean: have gap sizes between contigs been estimated?)
+#
+# Columns:
+#contig_ID(local)	contig_name	contig_rc	orientation_Q_score	gap_size_after_contig
+0	517938	0	2706.14	.
+1	518663	0	5002.48	.
+6	2750904	0	4.71519	.
+2	2135019	1	17.9234	.
+4	2135056	1	58.3996	.
+5	2750862	1	10.5396	.
+3	2135051	1	0.443451	.
